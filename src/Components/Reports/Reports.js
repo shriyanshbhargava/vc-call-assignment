@@ -3,7 +3,6 @@ import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Checkbox } from "antd";
 
 import { Card, Col, Row } from "antd";
-import { height } from "@mui/system";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const { Meta } = Card;
