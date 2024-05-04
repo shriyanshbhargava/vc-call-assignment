@@ -2,7 +2,7 @@ import React from "react";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Checkbox } from "antd";
 
-import {  Col, Row } from "antd";
+import { Col, Row } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const items = [
@@ -34,7 +34,7 @@ const Reports = () => (
     {/* Moved the div here */}
     <div className="max-w-md mx-auto bg-gray-700 rounded-lg overflow-hidden md:max-w-xl">
       <div className="md:flex">
-        <div className="w-full p-2">
+        <div className="w-full p-1">
           <div className="relative">
             <i className="absolute fa fa-search text-gray-400 top-5 left-4"></i>
             <input
@@ -173,7 +173,8 @@ const Reports = () => (
                 type="button"
                 class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-3 py-2  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
               >
-                Read More <FontAwesomeIcon className="ml-2" icon={faArrowRight} />
+                Read More{" "}
+                <FontAwesomeIcon className="ml-2" icon={faArrowRight} />
               </button>
             </div>
           </div>
@@ -218,11 +219,13 @@ const Reports = () => (
                 type="button"
                 class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-3 py-2  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
               >
-                Read More <FontAwesomeIcon className="ml-2" icon={faArrowRight} />
+                Read More{" "}
+                <FontAwesomeIcon className="ml-2" icon={faArrowRight} />
               </button>
             </div>
           </div>
-        </Col><Col span={8}>
+        </Col>
+        <Col span={8}>
           <div class="mx-auto w-80 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg w-70">
             <img
               class="h-48 w-full object-cover object-center"
@@ -262,7 +265,8 @@ const Reports = () => (
                 type="button"
                 class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-3 py-2  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
               >
-                Read More <FontAwesomeIcon className="ml-2" icon={faArrowRight} />
+                Read More{" "}
+                <FontAwesomeIcon className="ml-2" icon={faArrowRight} />
               </button>
             </div>
           </div>
