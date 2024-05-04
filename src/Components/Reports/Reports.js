@@ -2,10 +2,9 @@ import React from "react";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Checkbox } from "antd";
 
-import { Card, Col, Row } from "antd";
+import {  Col, Row } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-const { Meta } = Card;
 const items = [
   {
     label: 2024,
